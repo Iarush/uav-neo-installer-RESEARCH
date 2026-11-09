@@ -44,7 +44,7 @@ git clone https://github.com/Iarush/uav-neo-installer-RESEARCH
 2. Run the installer script
 
 ```sh
-bash uav-neo-installer/drone-student/scripts/setup.sh
+bash uav-neo-installer-RESEARCH/drone-student/scripts/setup.sh
 ```
 
 3. When prompted, select your operating system and course curriculum.
