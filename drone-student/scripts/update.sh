@@ -5,7 +5,10 @@
 # assists with updating labs, libraries, and simulator
 
 # Github locations of simulator, library, and curriculum (labs)
-SIM_URL="https://github.com/MITUavNeo/UAVNeo-Simulator.git"
+# RESEARCH: sim cloned from the RESEARCH fork (branch = platform name).
+# That fork only has a `windows` branch; mac/linux updates will fail unless
+# SIM_URL is pointed back at https://github.com/MITUavNeo/UAVNeo-Simulator.git
+SIM_URL="https://github.com/Iarush/UAVNeo-Simulator-RESEARCH.git"
 LIB_URL="https://github.com/MITUavNeo/uav-neo-library.git"
 CURR_URL="https://github.com/MITUavNeo/uav-neo-"
 

@@ -33,8 +33,13 @@ The setup script will automatically install Python 3.9, a virtual environment, a
 1. Clone the install repository into your computer (entry point)
 
 ```sh
-git clone https://github.com/MITUavNeo/uav-neo-installer.git
+git clone -b research-sim-source https://github.com/Iarush/uav-neo-installer-RESEARCH.git uav-neo-installer
 ```
+
+> RESEARCH build: this installs the simulator from
+> [Iarush/UAVNeo-Simulator-RESEARCH](https://github.com/Iarush/UAVNeo-Simulator-RESEARCH) (`windows` branch).
+> Only Windows is supported for now; Mac and Linux need the upstream
+> [MITUavNeo/UAVNeo-Simulator](https://github.com/MITUavNeo/UAVNeo-Simulator).
 
 2. Run the installer script
 
