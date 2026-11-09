@@ -31,9 +31,9 @@ The setup script will automatically install Python 3.9, a virtual environment, a
 ## Installation
 
 1. Clone the install repository into your computer (entry point)
-
+2. 
 ```sh
-git clone -b research-sim-source https://github.com/Iarush/uav-neo-installer-RESEARCH.git uav-neo-installer
+git clone https://github.com/Iarush/uav-neo-installer-RESEARCH
 ```
 
 > RESEARCH build: this installs the simulator from
