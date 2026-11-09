@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 # static variables
-SIM_URL="https://github.com/MITUavNeo/UAVNeo-Simulator.git"
+# RESEARCH: sim cloned from the RESEARCH fork (branch = platform name).
+# That fork only has a `windows` branch; mac/linux clones will fail unless
+# SIM_URL is pointed back at https://github.com/MITUavNeo/UAVNeo-Simulator.git
+SIM_URL="https://github.com/Iarush/UAVNeo-Simulator-RESEARCH.git"
 LIB_URL="https://github.com/MITUavNeo/uav-neo-library.git"
 CURR_URL="https://github.com/MITUavNeo/uav-neo-"
 
@@ -339,6 +342,8 @@ BASHEOF
     echo "Then use the Name from the output in place of the -InterfaceAlias parameter."
     echo ""
     echo "You only need to run this command once."
+    echo ""
+    echo "If Windows asks about python.exe from UAVSim, allow it; the sim uses it for custom drone frames."
     echo -e "==========================================================================\e[0m"
     echo ""
 
