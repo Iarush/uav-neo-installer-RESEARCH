@@ -81,7 +81,7 @@ if [ "$ALREADY_INSTALLED" = true ]; then
     echo "To reinstall, delete the entire uav-neo-installer folder and start fresh:"
     echo ""
     echo "  rm -rf ${NEO_DIR}"
-    echo "  git clone https://github.com/MITUavNeo/uav-neo-installer.git"
+    echo "  git clone -b research-sim-source https://github.com/Iarush/uav-neo-installer-RESEARCH.git uav-neo-installer"
     echo "  bash uav-neo-installer/drone-student/scripts/setup.sh"
     echo ""
     echo "If you only need to update labs, library, or the simulator, use:"

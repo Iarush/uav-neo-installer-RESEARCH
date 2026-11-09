@@ -43,7 +43,7 @@ _drone_tune_udp() {
 drone() {
   if [ "$DRONE_CONFIG_LOADED" != "TRUE" ]; then
     echo "Error: unable to find your local .config file.  Please make sure that you setup the drone tool correctly."
-    echo "Go to \"https://github.com/MITUavNeo/uav-neo-installer\" for setup instructions."
+    echo "Go to \"https://github.com/Iarush/uav-neo-installer-RESEARCH\" for setup instructions."
     return 1
   fi
 
